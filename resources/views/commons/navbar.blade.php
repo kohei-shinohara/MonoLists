@@ -30,7 +30,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="#">MyPAGE</a>
+                                    <a href="{{ route('users.show', Auth::user()->id) }}">MyPAGE</a>
                                 </li>
                                 <li role="separator" class="divider"></li>
                                 <li>
